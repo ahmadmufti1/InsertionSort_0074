@@ -56,3 +56,17 @@ void insertionSort()
         }
     }
 }
+
+//membuat fungsi untuk menampilkan data yang telah tersusun
+void display()
+{
+    cout << "\n\n======================" << endl;
+    cout << "Elemen array yang telah tersusun" << endl;
+    cout << "======================" << endl;
+
+    for (int j = 0; j < n; j++)
+    {
+        cout << arr[j] << endl;
+    }
+    cout << endl;
+}
