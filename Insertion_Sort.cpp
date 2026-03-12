@@ -70,3 +70,12 @@ void display()
     }
     cout << endl;
 }
+
+//membuat fungsi main untuk menjalankan program
+int main()
+{
+    input();
+    insertionSort();
+    display();
+    system("pause");
+}
