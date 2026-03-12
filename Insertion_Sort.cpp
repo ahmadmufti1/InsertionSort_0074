@@ -1,6 +1,9 @@
+//program untuk mengurutkan data dengan metode insertion sort
 #include <iostream>
+
 using namespace std;
 
+//deklarasi variabel global
 int arr[20];
 int n;
 
